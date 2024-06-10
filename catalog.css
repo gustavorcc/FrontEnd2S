@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #053a1f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c9e3d0;
+    border-radius: 10px;
+    margin-bottom: 450px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #038b28 !important;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.link-nav {
+    color: #ffffff !important;
+}
+
+.link-nav.active {
+    color: #053a1f;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    border-color: #ffffff !important;
+    border-radius: 10px;
+}
+
+
+.nav-item .link-nav {
+    margin: 0 10px;
+}
+
+.nav-item .link-nav:hover {
+    background-color: #535554;
+    border-radius: 5px;
+}
+
+.iconecarro {
+    color: #ffffff;
+    border-color: #018b03;
+}
+.iconecarro:hover{
+    color: #053a1f;
+}
+
+.navbar-text .btn-outline-success:hover {
+    background-color: #94a299;
+    border-color: #00f63d;
+}
+
+.catalogo-title {
+    text-align: center;
+    padding: 20px;
+    color: #e1e2e1;
+}
+
+.container mt-4{
+ text-align: center;
+}
+
