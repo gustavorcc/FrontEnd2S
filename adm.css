@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.product-info {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    height: 100px;
+     
+}
+
+h1 {
+    text-align: center;
+    color: #34a853;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #7ef1a0;
+    border-radius: 5px;
+    background: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #2c7a47;
+    outline: none;
+}
+
+.placeholder {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #f8f8f8;
+    padding: 0 5px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+input:focus + .placeholder,
+input:not(:placeholder-shown) + .placeholder {
+    top: -10px;
+    left: 5px;
+    background: #e0f7e9;
+    color: #34a853;
+    font-size: 12px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34a853;
+    color: white;
+    cursor: pointer;
+    width: 98.5%;
+    font-size: 10px;
+    transition: background-color 0.3s ease;
+   
+}
+
+
+button.add {
+    background-color: #28a745;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+button.add:hover {
+    background-color: #058421; 
+}
+button.delete {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 8px;
+}
+button.delete:hover {
+    background-color: #77141e;
+}
+button.edit {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 8px;
+}
+button.edit:hover {
+    background-color: #a98107; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff5f5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home{
+    width: 50px;
+    color: white;
+}
+.home:hover{
+    color: #285d34;
+}
+
